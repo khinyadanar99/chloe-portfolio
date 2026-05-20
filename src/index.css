@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  /* Base */
+  --color-background: #f7f4f8;
+  --color-surface: #ffffff;
+  --color-surface-soft: #fdfbff;
+  --color-border: #ece5f4;
+
+  /* Primary */
+  --color-primary: #8b5cf6;
+  --color-primary-light: #c4b5fd;
+  --color-primary-soft: #ede9fe;
+
+  /* Secondary */
+  --color-pink: #f9a8d4;
+  --color-pink-soft: #fce7f3;
+
+  /* Accent */
+  --color-blue: #93c5fd;
+  --color-blue-soft: #dbeafe;
+
+  --color-peach: #fdba74;
+  --color-peach-soft: #ffedd5;
+
+  --color-mint: #99f6e4;
+  --color-mint-soft: #ccfbf1;
+
+  /* Text */
+  --color-text: #1e1b4b;
+  --color-text-muted: #6b7280;
+  --color-text-soft: #9ca3af;
+
+  /* Gradient */
+  --gradient-primary: linear-gradient(
+    135deg,
+    #8b5cf6 0%,
+    #c084fc 40%,
+    #f9a8d4 100%
+  );
+
+  --gradient-hero: linear-gradient(
+    135deg,
+    #f5f3ff 0%,
+    #fdf2f8 50%,
+    #eff6ff 100%
+  );
+}
+
+.glass_card {
+background: rgba(255, 255, 255, 0.16);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.7px);
+-webkit-backdrop-filter: blur(7.7px);
+/* border: 1px solid rgba(255, 255, 255, 0.46); */
+}
