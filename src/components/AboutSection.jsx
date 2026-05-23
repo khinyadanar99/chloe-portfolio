@@ -9,7 +9,7 @@ function AboutSection() {
 
     const {stats} = content;
   return (
-    <Section>
+    <Section id="about">
         <Title bgTitle="About Me" mainTitle="About"></Title>
         <p></p>
         <div className='grid md:grid-cols-3 gap-8'>
@@ -17,6 +17,7 @@ function AboutSection() {
                     
                 return(
                     <StatsCard 
+                    key={index}
                     icon={stat.icon}
                     main={stat.main}
                     sub={stat.sub}>

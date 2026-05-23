@@ -9,7 +9,7 @@ function TechSection() {
 
   return (
     
-      <Section>
+      <Section id="skills">
         <Title bgTitle="Techstack" mainTitle="Tools & Technologies"></Title>
         
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">

@@ -6,32 +6,33 @@ import { Link } from 'react-router-dom'
 
 function ProjectCard({image, title, description, technologies, github, demo}) {
   return (
-    <div className="glass_card rounded-sm overflow-hidden">
-        <img className="aspect-video object-cover" src={image} alt="img"></img>
-        <div className="flex flex-col justify-between  px-5 pt-5 pb-8">
-            <div>
+    <div className="glass_card rounded-sm overflow-hidden flex flex-wrap content-between">
+        <div>
+            <img className="aspect-video object-cover" src={image} alt="img"></img>
+            <div className='px-5'>
                 <h3 className="py-8">{title}</h3>
-                <p className="">{description}</p>
+                <p>{description}</p>
             </div>
+        </div>
             
-            <div>
-                <div className="flex flex-wrap gap-2 mt-20">
-                    {technologies.map((technology, index) => {
-                        
-                        return(
-                            <p className="px-2 rounded-md bg-amber-400">{technology}</p>
-                        )
-                    })}
+        
+        <div  className='px-5 pb-8 mt-10'>
+            <div className="flex flex-wrap gap-2">
+                {technologies.map((technology, index) => {
                     
-                </div>
-                <div className='flex gap-2 mt-5'>
-                    <Link to="https://github.com/khinyadanar99/hospital" target="_blank" className="border border-amber-400 px-3 py-2 rounded-sm"><FontAwesomeIcon icon={faGithub} />Github</Link>
-                    
-                    <a href={demo} className="border border-amber-400 px-3 py-2 rounded-sm"><FontAwesomeIcon icon={faGlobe} />Live Demo</a>
-                </div>
+                    return(
+                        <p className="px-2 rounded-md border border-purple-800 text-purple-800">{technology}</p>
+                    )
+                })}
+                
             </div>
+            <div className='flex gap-2 mt-5'>
+                <Link to={github} target="_blank" className="border bg-purple-800 text-white px-3 py-2 rounded-lg"><FontAwesomeIcon icon={faGithub} /> Github</Link>
+                <Link to={demo} target="_blank" className="border bg-purple-800 text-white px-3 py-2 rounded-lg"><FontAwesomeIcon icon={faGlobe} /> Live Demo</Link>
+            </div>
+        </div>
            
-        </div> 
+        
     </div>
   )
 }

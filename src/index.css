@@ -31,6 +31,8 @@
   --color-text-muted: #6b7280;
   --color-text-soft: #9ca3af;
 
+  
+
   /* Gradient */
   --gradient-primary: linear-gradient(
     135deg,
@@ -54,4 +56,9 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(7.7px);
 -webkit-backdrop-filter: blur(7.7px);
 /* border: 1px solid rgba(255, 255, 255, 0.46); */
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
 }

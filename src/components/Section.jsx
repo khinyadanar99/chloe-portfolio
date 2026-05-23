@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Section({children}) {
+function Section({id, children}) {
   return (
-    <section className="max-w-6xl mx-auto pb-20">
+    <section id={id} className="max-w-6xl mx-auto pb-20 scroll-mt-32">
         {children}
     </section>
   )

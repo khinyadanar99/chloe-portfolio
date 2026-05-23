@@ -8,19 +8,19 @@ function ProjectSection() {
     const {projects} = content;
 
     return (
-        <Section>
+        <Section id="projects">
             <Title bgTitle="Projects" mainTitle="Work"></Title>
             <div className="grid md:grid-cols-3 gap-8">
                 {projects.map((project, index) => {
                     
                     return(
                         <ProjectCard 
-                        image={project.image}
-                        title={project.title}
-                        description={project.description}
-                        technologies={project.technologies}
-                        github={project.github}
-                        demo={project.demo}>
+                            image={project.image}
+                            title={project.title}
+                            description={project.description}
+                            technologies={project.technologies}
+                            github={project.github}
+                            demo={project.demo}>
                         </ProjectCard>
                     )
                 })}

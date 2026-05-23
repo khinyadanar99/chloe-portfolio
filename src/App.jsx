@@ -4,6 +4,8 @@ import TechSection from './components/TechSection'
 import JourneySection from './components/JourneySection'
 import ProjectSection from './components/ProjectSection'
 import AboutSection from './components/AboutSection'
+import WorkSection from './components/WorkSection'
+import EducationSection from './components/EducationSection'
 
 function App() {
 
@@ -13,7 +15,8 @@ function App() {
         <HeroSection></HeroSection>
         <AboutSection></AboutSection>
         <TechSection></TechSection>
-        <JourneySection></JourneySection>
+        <WorkSection></WorkSection>
+        <EducationSection></EducationSection>
         <ProjectSection></ProjectSection>
     </div>
        
