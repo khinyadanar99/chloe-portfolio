@@ -12,10 +12,11 @@ function TechSection() {
       <Section id="skills">
         <Title bgTitle="Techstack" mainTitle="Tools & Technologies"></Title>
         
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 justify-center">
           {skills.map((skill, index) => {
             return (
               <TechCard
+              key={index}
               name = {skill.name}
               icon = {skill.icon}
               progress={skill.progress}></TechCard>

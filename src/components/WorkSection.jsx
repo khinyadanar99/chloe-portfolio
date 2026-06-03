@@ -21,26 +21,26 @@ function WorkSection() {
             <Timeline sx={{
                 [`& .${timelineOppositeContentClasses.root}`]: {
                 flex: 0.5,
-                },
+                }, paddingRight: 0
             }}>
                 {experience.map((work, index) => (
                     <TimelineItem key={index}>
-                        <TimelineOppositeContent color="textSecondary" className='hidden md:inline-block'>
+                        <TimelineOppositeContent className='hidden md:inline-block text-purple-900' sx={{paddingLeft: 0}}>
                             {work.period}
                         </TimelineOppositeContent>
                         <TimelineSeparator>
-                        <TimelineDot />
+                        <TimelineDot sx={{backgroundColor: "#ad46ff"}}/>
                         <TimelineConnector  className='bg-linear-to-r from-purple-500 via-pink-400 to-blue-400 w-2'/>
                         </TimelineSeparator>
-                        <TimelineContent>
+                        <TimelineContent sx={{paddingRight: 0, paddingBottom: 10 }}>
                             <div className="glass_card border border-purple-500/20 rounded-3xl p-6 shadow-[0_0_30px_rgba(168,85,247,0.2)]">
                                 <span className='inline-block md:hidden px-3 border border-purple-800 rounded-lg mb-5'>{work.period}</span>
-                                <h3 className="text-lg font-bold text-black">{work.role}</h3>
-                                <p className='pb-5'>{work.company}</p>
+                                <h3>{work.role}</h3>
+                                <h4 className='pb-5 text-blue-800'>{work.company}</h4>
                                 <ul>
                                     {work.responsibilities?.map((responsibility, index) => {
                                         return (
-                                            <li key={index}>{responsibility}</li>
+                                            <li className='text-gray-600 pb-2' key={index}>{responsibility}</li>
                                         )
                                     })}
                                 </ul>

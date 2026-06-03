@@ -1,24 +1,18 @@
-import { faCalendar} from '@fortawesome/free-regular-svg-icons'
-import { faGraduationCap, faTrophy } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
-function StatsCard({index, main, sub}) {
-  const stats = [
-      { id: 1, icon: faCalendar, color: "" },
-      { id: 2, icon: faGraduationCap, color: "" },
-      { id: 3, icon: faTrophy, color: "" },
-    ];
+function StatsCard({main, icon, statsColor, sub, col}) {
+  
   return (
-    <div className='flex items-center gap-3 p-5 glass_card'>
+    <div className={`flex items-center gap-3 p-5 glass_card ${col}`}>
       
-      <FontAwesomeIcon icon={faCalendar} className='bg-amber-400 p-5 rounded-full text-amber-50'/>
+      <FontAwesomeIcon icon={icon} className={`p-5 w-5! h-5! object-contain rounded-full text-white ${statsColor[1]}`}/>
           
         
         
         <div>
-            <p className='font-bold text-3xl'>{main}</p>
-            <p>{sub}</p>
+            <p className={`font-bold text-3xl ${statsColor[0]}`}>{main}</p>
+            <p className="text-secondary">{sub}</p>
         </div>
     </div>
   )

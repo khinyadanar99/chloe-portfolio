@@ -10,11 +10,12 @@ function ProjectSection() {
     return (
         <Section id="projects">
             <Title bgTitle="Projects" mainTitle="Work"></Title>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
                 {projects.map((project, index) => {
                     
                     return(
                         <ProjectCard 
+                            key={index}
                             image={project.image}
                             title={project.title}
                             description={project.description}

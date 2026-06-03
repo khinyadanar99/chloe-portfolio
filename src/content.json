@@ -11,68 +11,30 @@
     ],
     "summary": "MSc Information Technology graduate with First Class Honours and strong experience in full-stack web development, data analysis, and system design.",
     "stats": [
-        { "icon": "faCalendar", "main": "3+", "sub": "years Experience"},
-        { "icon": "faCalendar", "main": "MSc", "sub": "Information Technology"},
-        { "icon": "faCalendar", "main": "Winner", "sub": "SICC–JCU Circular Economy & Sustainability Competition"}
+        { "main": "3+", "sub": "years Experience"},
+        { "main": "MSc", "sub": "Information Technology"},
+        { "main": "Winner", "sub": "SICC–JCU Circular Economy & Sustainability Competition"}
     ],
     "skills": [
-        { "name": "React", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", "progress": "85%" },
-        { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", "progress": "90%" },
-        { "name": "Express.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg", "progress": "85%" },
+        { "name": "React", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", "progress": "70%" },
+        { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", "progress": "80%" },
+        { "name": "Express.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg", "progress": "70%" },
         { "name": "Prisma", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg", "progress": "85%" },
-        { "name": "HTML5", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", "progress": "95%" },
-        { "name": "CSS3", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", "progress": "92%" },
-        { "name": "Bootstrap", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", "progress": "88%" },
-        { "name": "Tailwind", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons//tailwindcss/tailwindcss-original.svg", "progress": "88%" },
-        { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "progress": "80%" },
-        { "name": "MySQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", "progress": "85%" },
-        { "name": "PHP", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg", "progress": "75%" },
-        { "name": "GitHub", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", "progress": "90%" },
+        { "name": "HTML5", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", "progress": "90%" },
+        { "name": "CSS3", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", "progress": "90%" },
+        { "name": "Bootstrap", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", "progress": "90%" },
+        { "name": "Tailwind", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons//tailwindcss/tailwindcss-original.svg", "progress": "90%" },
+        { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "progress": "60%" },
+        { "name": "MySQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", "progress": "90%" },
+        { "name": "PHP", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg", "progress": "70%" },
+        { "name": "GitHub", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", "progress": "80%" },
         { "name": "Figma", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg", "progress": "75%" }
-    ],
-    "journey": [
-        {
-            "type": "education",
-            "date": "Feb 2025",
-            "title": "MSc Information Technology",
-            "subtitle": "University of the West of England",
-            "grade": "Distinction"
-        },
-        {
-            "type": "work",
-            "date": "May 2022 — Dec 2023",
-            "title": "Junior Software Developer",
-            "subtitle": "Aurum Techway",
-            "responsibilities": [
-                "Developed application features using PHP, JavaScript, HTML, CSS, and SQL.",
-                "Built reusable software components.",
-                "Optimized SQL queries and AJAX interactions.",
-                "Applied secure coding practices and Agile workflows."
-            ]
-        },
-        {
-            "type": "work",
-            "date": "Jul 2020 — Apr 2022",
-            "title": "Junior Front-End Developer",
-            "subtitle": "Spiceworks",
-            "responsibilities": [
-                "Built responsive interfaces using HTML5, CSS3, JavaScript, and Bootstrap.",
-                "Converted Figma and Photoshop wireframes into production code.",
-                "Implemented interactive React components.",
-                "Collaborated using Git and GitHub in Agile teams."
-            ]
-        },
-        {
-            "type": "education",
-            "date": "Mar 2020",
-            "title": "Bachelor of Information Technology",
-            "subtitle": "James Cook University",
-            "grade": "Second Class Honours"
-        }
     ],
     "education": [
         {
-            "image": "./UWE_logo.png",
+            "image": "./UWE_logo.webp",
+            "img-width": "1200",
+            "img-height": "589",
             "degree": "Master of Science in Information Technology",
             "institution": "University of the West of England, Bristol",
             "graduation_year": 2025,
@@ -89,7 +51,9 @@
             ]
         },
         {
-            "image": "./JCU_logo.png",
+            "image": "./JCU_logo.webp",
+            "img-width": "1024",
+            "img-height": "525",
             "degree": "Bachelor of Information Technology",
             "institution": "James Cook University",
             "graduation_year": 2020,
@@ -107,7 +71,9 @@
             "company": "Lloyds Banking Group",
             "period": "November 2025",
             "responsibilities": [
-
+                "Applied user-centred design and structured problem-solving to deliver practical and technology-driven solutions for real customer scenarios.", 
+                "Developed an interactive mortgage calculator using React, implementing state management, real-time updates and input validation to ensure accurate financial calculations.",
+                "Improved solution quality through iteration by presenting outputs clearly, incorporating feedback and refining functionality and usability."
             ]
 
         },
@@ -140,20 +106,30 @@
             "title": "Hospital Management System",
             "description": "A full-stack web application designed to manage patient admissions, doctor assignments, and ward transfers, with a strong focus on usability and clear user flows.",
             "technologies": [
-                "PHP", "AJAX", "MySQL", "PHP", "AJAX", "MySQL", "PHP", "AJAX", "MySQL"
+                "PHP", "AJAX", "MySQL"
             ],
-            "github": "https://github.com/khinyadanar99?tab=repositories",
-            "demo": "https://github.com/khinyadanar99"
+            "github": "https://github.com/khinyadanar99/hospital",
+            "demo": ""
         },
         {
             "image": "",
-            "title": "Big Data Analysis – Uber Rides",
-            "description": "Analysed ride datasets using Python, MongoDB, and data visualization tools.",
+            "title": "ToDo App",
+            "description": "A full-stack Todo List application to practise modern front-end development and backend integration. The project focused on building a responsive user interface and connecting it to a custom API for task management and data persistence.",
             "technologies": [
-                "Python"
+                "React", "Express", "Prisma ORM", "Material UI", "API"
             ],
-            "github": "https://github.com/khinyadanar99?tab=repositories",
-            "demo": "https://github.com/khinyadanar99"
+            "github": "https://github.com/khinyadanar99/todo-react",
+            "demo": ""
+        },
+        {
+            "image": "",
+            "title": "Mortgage Calculator",
+            "description": "An interactive mortgage calculator developed as part of a technology engineering job simulation,focusing on front-end logic and real-time user interaction.",
+            "technologies": [
+                "React", "Material UI"
+            ],
+            "github": "https://github.com/khinyadanar99/mortgage-calculator",
+            "demo": ""
         }
     ]
 }

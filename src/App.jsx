@@ -1,7 +1,6 @@
 
 import HeroSection from './components/HeroSection'
 import TechSection from './components/TechSection'
-import JourneySection from './components/JourneySection'
 import ProjectSection from './components/ProjectSection'
 import AboutSection from './components/AboutSection'
 import WorkSection from './components/WorkSection'
