@@ -49,10 +49,10 @@ function Navbar() {
 
                     <li>
                         <a
-                            href="#projects"
+                            href="#experience"
                             className="hover:text-purple-500 transition duration-300"
                         >
-                            Projects
+                            Experience
                         </a>
                     </li>
 
@@ -62,6 +62,15 @@ function Navbar() {
                             className="hover:text-purple-500 transition duration-300"
                         >
                             Education
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="#projects"
+                            className="hover:text-purple-500 transition duration-300"
+                        >
+                            Projects
                         </a>
                     </li>
 
